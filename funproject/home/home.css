@@ -1,0 +1,214 @@
+.contact {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background: #d5015b;
+    color: white;
+    padding: 8px 0;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.contact-info {
+    display: flex;
+    
+}
+
+.contact-option {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-bar  {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0;
+    /* border-bottom: 1px solid; */
+    background: #000;
+    position: sticky;
+    top: 40px;
+    z-index: 2;
+    box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%), 0 1px 18px 0 rgb(0 0 0 / 12%);
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 28px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    word-spacing: -6px;
+    position: relative;
+    margin-top: -22px;
+    color: #635b5b;
+}
+
+.menu  {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menu-option  {
+    padding: 40px 35px;
+    cursor: pointer;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    transition: color 350ms;
+    color: #d5015b;
+}
+
+.menu-option:hover  {
+    color: teal;
+}
+
+.logo > .description {
+    position: absolute;
+    color: #d5015b;
+    display: flex;
+    right: 72px;
+    width: 224px;
+    text-align: right;
+    top: 28px;
+    text-transform: initial;
+}
+
+.banner{
+    position: relative;
+    top: 4px;
+    width: 70%;
+    margin: auto;
+    height: 700px;
+    box-shadow: 0 6px 17px -39px #d5015b, 0 -2px 5px 0 #d5015b, 0 -1px 11px 0 #d5015b;
+    cursor: pointer;
+}
+
+.banner-img {
+    min-width: 100%;
+    position: relative;
+    transition: transform 1000ms;
+    font-size: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.banner-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: #00000080;
+}
+
+.banner-info-1 {
+    max-width: 1000px;
+    color: white;
+    position: absolute;
+    top: 460px;
+    left: 50px;
+    opacity: 0;
+    transition: transform 1500ms, opacity 1500ms;
+}
+
+.banner-info-2 {
+    max-width: 1000px;
+    color: white;
+    position: absolute;
+    top: 560px;
+    left: 50px;
+    transition: transform 1500ms, opacity 1500ms;
+}
+
+.banner-title {
+    font-size: 48px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+}
+
+.banner-container{
+    font-size: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.img-container {
+    display: flex;
+    overflow: hidden;
+    height: 100%
+}
+
+.latest-videos {
+    overflow: hidden;
+    white-space: nowrap;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+    display: inline-block;
+    position: relative;
+}
+
+.latest-video {
+    width: calc(94%/3);
+    height: 270px;
+    box-shadow: 0 6px 17px -39px #d5015b, 0 -2px 5px 0 #d5015b, 0 -1px 11px 0 #d5015b;
+    position: relative;
+    cursor: pointer;
+    transition: box-shadow 300ms;
+    display: inline-block;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 10px;
+}
+
+.latest-video:hover {
+    box-shadow: 0 6px 17px -39px #d5015b, 0 -2px 16px 0 #d5015b, 0 -1px 11px 0 #d5015b;
+}
+
+.shadow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #0000008c;
+    top: 0;
+    z-index: 1;
+}
+
+.text {
+    position: absolute;
+    bottom: 12px;
+    left: 6px;
+    font-size: 19px;
+    color: #b9adad;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.section-header {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 2%;
+}
+
+.section-header-text {
+    font-size: 30px;
+    line-height: 34px;
+    font-weight: 400;
+    color: #635b5b;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.right {
+    right: 1%;
+}
+
+.left {
+    left: 1%;
+}
+
+.set-position {
+    position: absolute;
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
